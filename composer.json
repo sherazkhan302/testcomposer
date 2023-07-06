@@ -1,0 +1,22 @@
+{
+    "name": "sherazkhan302/module-testcomposer",
+    "description": "This module is for test purpose to check installation via composer",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Mage2Gen",
+            "email": "info@mage2gen.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Sherazkhan302\\Testcomposer\\": ""
+        }
+    }
+}
